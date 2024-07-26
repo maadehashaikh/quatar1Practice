@@ -37,9 +37,34 @@
 // console.log(`Addition's result is ${add} Subtraction result is ${sub} Multiplication result is :${mult} and 
 //   division result is ${divide}`);
 // console.log(add+sub*mult-divide);    
-function halfFryEgg() {
-    let cooked = 2 * 2;
-    return (cooked);
+// function halfFryEgg (){
+//   let cooked = 2*2;
+//   return(cooked);
+// }
+// console.log(halfFryEgg());
+// import inquirer from "inquirer";
+// let input1 = await inquirer.prompt([{
+//    name:"userAnswer",
+//    type:"string",
+//    message:"What is the capital of France ?"
+// }]);
+// function quiz (question:string , correctAnswer:string){
+//   if(input1.userAnswer.toLowerCase() === correctAnswer.toLowerCase()){
+//     console.log("Correct !");
+// }
+// else{
+//   console.log("Wrong answer . Try again");
+// }
+// }
+// quiz("What is the capital of France ?" , "France");
+// --------------------------------------------------
+// function calcProduct (a:number,b:number) {
+//   console.log(a*b);
+// }
+// calcProduct(10,5);
+// ------------------------------------------------------------
+function greet(name, greeing = "Hello") {
+    console.log(greeing + ' ' + name);
 }
-console.log(halfFryEgg());
+greet("maadeha");
 export {};

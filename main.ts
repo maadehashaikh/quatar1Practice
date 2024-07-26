@@ -47,8 +47,48 @@
  
 
 
-function halfFryEgg (){
-  let cooked = 2*2;
-  return(cooked);
-}
-console.log(halfFryEgg());
+// function halfFryEgg (){
+//   let cooked = 2*2;
+//   return(cooked);
+// }
+// console.log(halfFryEgg());
+
+// import inquirer from "inquirer";
+// let input1 = await inquirer.prompt([{
+//    name:"userAnswer",
+//    type:"string",
+//    message:"What is the capital of France ?"
+// }]);
+// function quiz (question:string , correctAnswer:string){
+//   if(input1.userAnswer.toLowerCase() === correctAnswer.toLowerCase()){
+//     console.log("Correct !");
+// }
+// else{
+//   console.log("Wrong answer . Try again");
+// }
+// }
+// quiz("What is the capital of France ?" , "France");
+
+// --------------------------------------------------
+
+// function calcProduct (a:number,b:number) {
+//   console.log(a*b);
+// }
+// calcProduct(10,5);
+
+// ------------------------------------------------------------
+// function greet (name:string , greeing:string="Hello"){
+//    console.log(greeing + ' '+ name);
+// }
+// greet("maadeha");
+
+
+
+
+
+
+
+
+
+
+
