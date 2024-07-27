@@ -78,9 +78,14 @@
 let myname;
 myname = "maadeha";
 console.log(myname);
-myname = 33;
-console.log(myname);
+// myname = null;
+// console.log(myname);
 // myname = false;
 // console.log(myname);
-console.log(typeof (myname));
+// console.log(typeof(myname));
+// 1-b  2-b 3-b 4-a 5-a 6-a 7-a 8-a 9-c 10-a 
+function greet(name) {
+    return "Hello" + name;
+}
+console.log(typeof (greet));
 export {};
