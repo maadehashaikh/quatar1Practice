@@ -63,8 +63,15 @@
 // }
 // calcProduct(10,5);
 // ------------------------------------------------------------
-function greet(name, greeing = "Hello") {
-    console.log(greeing + ' ' + name);
+// function greet (name:string , greeing:string="Hello"){
+//    console.log(greeing + ' '+ name);
+// }
+// greet("maadeha");
+let person = {
+    name: "maadeha",
+    age: 10
+};
+for (let key in person) {
+    console.log(`${key} : ${person[key]}`);
 }
-greet("maadeha");
 export {};

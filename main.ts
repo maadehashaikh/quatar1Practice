@@ -81,7 +81,13 @@
 //    console.log(greeing + ' '+ name);
 // }
 // greet("maadeha");
-
+let person:any = {
+  name:"maadeha",
+  age:10
+}
+for (let key in person){
+  console.log(`${key} : ${person[key]}`);
+}
 
 
 
