@@ -81,14 +81,27 @@
 //    console.log(greeing + ' '+ name);
 // }
 // greet("maadeha");
-let person:any = {
-  name:"maadeha",
-  age:10
-}
-for (let key in person){
-  console.log(`${key} : ${person[key]}`);
-}
+// let person:any = {
+//   name:"maadeha",
+//   age:10
+// }
+// for (let key in person){
+//   console.log(`${key} : ${person[key]}`);
+// }
 
+
+// UNION LITERALS 
+let myname : string | number;
+myname = "maadeha";
+console.log(myname);
+
+// myname = null;
+// console.log(myname);
+
+// myname = false;
+// console.log(myname);
+
+// console.log(typeof(myname));
 
 
 
