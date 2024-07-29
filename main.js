@@ -83,9 +83,16 @@ console.log(myname);
 // myname = false;
 // console.log(myname);
 // console.log(typeof(myname));
-// 1-b  2-b 3-b 4-a 5-a 6-a 7-a 8-a 9-c 10-a 
-function greet(name) {
-    return "Hello" + name;
-}
-console.log(typeof (greet));
+// 1-b  2-b 3-b 4-a 5-a 6-a 7-a 8-a 9-c 10-a  11-b 12-a 13-b 14-d 16- 17-a 18-a 
+// 19-c 20-b 21-b 22-d 23-c 24-a 25-a 26-a 27-b 28-
+// function greet (name:string):string{
+//   return "Hello" + name;
+// }
+// console.log(typeof(greet));
+// void can be use as a return type on function confusing 12
+// tuple confused 13
+// 16 func declaration and function expression 
+// 20 confusion
+//27 await aay ga I guess
+console.log(3 % -1);
 export {};
